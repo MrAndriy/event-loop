@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "npm run build && node build/index.js",
-    "prepublish": "node scripts/prepublish.js",
+    "prepare:img": "node scripts/prepareImg.js",
     "start:dev": "npx nodemon",
     "build": "rimraf ./build && tsc",
     "clear": "rimraf ./build && rimraf ./node_modules"
